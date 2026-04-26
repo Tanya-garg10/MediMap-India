@@ -23,7 +23,7 @@ const T = {
   Flagged: { color: "#6B7280", bg: "rgba(107,114,128,0.08)", border: "rgba(107,114,128,0.25)", progress: "0%", label: "FLAGGED", summary: "Fraud indicators detected · DO NOT refer patients." },
 };
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 // ─── Mock data (fallback) ─────────────────────────────────────────────────────
 const MOCK_HOSPITALS = [

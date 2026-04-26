@@ -43,6 +43,21 @@ def statistics():
     return get_stats()
 
 
+@app.get("/")
+def root():
+    return {
+        "service": "MediMap-India",
+        "status": "running",
+        "endpoints": {
+            "/query?q=...": "Natural language hospital search",
+            "/hospitals/map": "All hospitals for map",
+            "/stats": "Aggregate statistics",
+            "/docs": "Swagger API docs",
+            "/health": "Health check",
+        }
+    }
+
+
 @app.get("/health")
 def health():
     return {"status": "ok", "service": "MediMap-India"}
