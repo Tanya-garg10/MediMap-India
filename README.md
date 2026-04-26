@@ -102,8 +102,6 @@ MediMap-India/
 ├── index.html
 ├── package.json
 ├── vite.config.js
-├── DEMO_SCRIPT.md
-└── DEPLOYMENT.md
 ```
 
 ## 🎯 Sample Queries
