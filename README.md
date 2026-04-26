@@ -4,8 +4,6 @@
 
 Search any city, state, or specialty in natural language. Every result comes with a Trust Score, AI reasoning chain, contradiction detection, and fraud flagging.
 
----
-
 ## ✨ Features
 
 - 🔍 **Natural Language Search** — "emergency dialysis hospital in Bihar" just works
@@ -17,20 +15,6 @@ Search any city, state, or specialty in natural language. Every result comes wit
 - 🏜️ **Medical Desert Alerts** — Areas with no high-trust facility highlighted
 - 📱 **Mobile Friendly** — Responsive dark-themed UI
 
----
-
-## 🖼️ Screenshots
-
-| Landing Page | Search Results |
-|:---:|:---:|
-| Map with 10k facilities | Trust-scored hospital cards |
-
-| AI Reasoning | Map View |
-|:---:|:---:|
-| Chain of thought + raw data | Search results on map |
-
----
-
 ## 🛠️ Tech Stack
 
 | Layer | Tech |
@@ -40,8 +24,6 @@ Search any city, state, or specialty in natural language. Every result comes wit
 | Database | SQLite |
 | AI | Rule-based Trust Scorer + NLP Query Engine |
 | Dataset | 10,000 Indian healthcare facilities |
-
----
 
 ## ⚡ Quick Start
 
@@ -72,8 +54,6 @@ npx vite
 
 Go to `http://localhost:5173` — search away!
 
----
-
 ## 🔌 API Endpoints
 
 | Method | Endpoint | Description |
@@ -83,8 +63,6 @@ Go to `http://localhost:5173` — search away!
 | GET | `/stats` | Aggregate statistics |
 | GET | `/health` | Health check |
 | GET | `/docs` | Swagger UI |
-
----
 
 ## 🧠 How Trust Scoring Works
 
@@ -105,8 +83,6 @@ The AI analyzes each hospital record for:
 - 🟡 **Medium Trust** (0-29 points) — Call ahead
 - 🔴 **Low Trust** (below 0) — Do not rely
 - ⚫ **Flagged** (fraud detected) — DO NOT refer
-
----
 
 ## 📁 Project Structure
 
@@ -130,8 +106,6 @@ MediMap-India/
 └── DEPLOYMENT.md
 ```
 
----
-
 ## 🎯 Sample Queries
 
 | Query | What it does |
@@ -142,14 +116,7 @@ MediMap-India/
 | `NABH accredited hospital in Hyderabad` | Specific requirement |
 | `cardiac surgery in Mumbai` | Specialty search |
 
----
-
 ## 👥 Team
 
-Built for the Veersa Foundation Hackathon — Challenge 3: Serving A Nation
+Built by Team OLFA-TECH | Hack-Nation × World Bank Youth Summit 2026
 
----
-
-## 📄 License
-
-MIT
